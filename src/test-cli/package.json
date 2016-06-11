@@ -1,0 +1,32 @@
+{
+  "name": "slipsum-lite",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mosjs/mos"
+  },
+  "dependencies": {
+    "mos-plugin-foo": "*",
+    "mos-plugin-custom": "*"
+  },
+  "devDependencies": {
+    "mos-plugin-bar": "*"
+  },
+  "mos": {
+    "plugins": [
+      "foo",
+      "mos-plugin-bar",
+      [
+        "custom",
+        {
+          "customText": "1234"
+        }
+      ]
+    ],
+    "toc": {
+      "heading": "boo"
+    },
+    "license": false
+  }
+}
