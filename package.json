@@ -71,7 +71,7 @@
     "mos-plugin-license": "^1.2.2",
     "mos-plugin-markdownscript": "^2.1.2",
     "mos-plugin-package-json": "^2.1.2",
-    "mos-plugin-shields": "^2.2.2",
+    "mos-plugin-shields": "dword-design/mos#fork/mos-plugin-shields",
     "mos-plugin-snippet": "^2.1.3",
     "mos-plugin-toc": "^1.2.3",
     "mos-processor": "^1.2.2",
